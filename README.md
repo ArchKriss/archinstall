@@ -4,13 +4,13 @@ loadkeys fr-latin1
 # Increase font size (optional)
 setfont ter-p20b
 
-# Connect to WLAN (if not LAN)
+### Connect to WLAN (if not LAN)
 iwctl --passphrase E5780D864483 station wlan0 connect [network]
 
-# Check internet connection
+### Check internet connection
 ping -c4 www.archlinux.org
 
-# Check partitions
+### Check partitions
 lsblk
 
 # Create partitions
@@ -32,7 +32,7 @@ pacman -Syy
 pacman -S git
 
 # Clone Installation
-git clone https://gitlab.com/stephan-raabe/archinstall.git
+git clone https://github.com/ArchKriss/archinstall.git
 cd archinstall
 
 # Start the script

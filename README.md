@@ -49,6 +49,6 @@ cd archinstall
 ---
 
 #### Start the script
-**./1-install.sh**
+./1-install.sh
 
 

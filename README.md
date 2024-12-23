@@ -1,7 +1,7 @@
-### Load keyboard layout (replace de with us, fr, es if needed)
+#### Load keyboard layout (replace de with us, fr, es if needed)
 loadkeys fr-latin1
 
-### Increase font size (optional)
+##### Increase font size (optional)
 setfont ter-p20b
 
 ### Connect to WLAN (if not LAN)

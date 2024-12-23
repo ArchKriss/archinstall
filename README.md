@@ -7,7 +7,7 @@ setfont ter-p20b
 
 ---
 #### Connect to WLAN (if not LAN)
-iwctl --passphrase E5780D864483 station wlan0 connect [network]
+iwctl --passphrase [password] station wlan0 connect [network]
 
 ---
 #### Check internet connection

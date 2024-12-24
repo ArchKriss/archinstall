@@ -45,6 +45,7 @@ pacman -S git
 
 #### Clone Installation
 git clone https://github.com/ArchKriss/archinstall.git
+
 cd archinstall
 
 ---
